@@ -32,15 +32,15 @@ const Frame = styled.div`
   }
 `;
 
-const Overlay = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  z-index: -1;
-`;
+// const Overlay = styled.div`
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgba(255, 255, 255, 0.1);
+//   z-index: -1;
+// `;
 
 const SiteLayout = () => {
   return (
@@ -54,13 +54,13 @@ const SiteLayout = () => {
             <p className='text-sm pb-8'>Graduate software/web dev</p>
             <Navbar />
           </header>
-          <div className='max-w-48 md:max-w-2xl absolute bottom-0 right-0 p-5'>
+          <div className='max-w-48 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5'>
             <Outlet />
           </div>
         </Frame>
         <SocialsBar />
         <ThemeToggle />
-        <Overlay />
+        {/* <Overlay /> */}
       </Background>
     </>
   );
