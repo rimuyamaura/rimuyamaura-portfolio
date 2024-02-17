@@ -81,7 +81,7 @@ const SocialsBar = () => {
           </a>
         );
       })}
-      <SocialText className='hidden md:flex font-light text-xl text-base-100'>
+      <SocialText className='hidden lg:flex font-light text-xl text-base-100'>
         SOCIALS
       </SocialText>
     </SocialsWrapper>

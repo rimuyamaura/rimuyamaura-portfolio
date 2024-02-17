@@ -1,25 +1,23 @@
 const About = () => {
   return (
-    <>
-      <div className='flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center py-20'>
-        <h1 className='text-4xl font-bold leading-none tracking-tight sm:text-6xl'>
-          We love
-        </h1>
-        <div className='stats bg-primary shadow'>
-          <div className='stat'>
-            <div className="='stat-title text-primary-content text-4xl font-bold tracking-widest">
-              comfy
-            </div>
-          </div>
-        </div>
+    <div className='text-right'>
+      <div>
+        <h1 className='text-6xl xl:text-9xl pb-12'>ABOUT ME</h1>
       </div>
-      <p className='mt-6 text-lg leading-8 max-w-2xl mx-auto'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic veniam
-        odit, officiis eos mollitia alias, doloremque, aspernatur ratione
-        asperiores voluptas labore minus dolores reprehenderit corporis quos.
-        Assumenda molestias harum dignissimos?
-      </p>{' '}
-    </>
+      <div>
+        <p style={{ paddingBottom: '7%' }}>
+          I am a 22 y.o recent computer science graduate who studied at the
+          University of Auckland. Based in Auckland, New Zealand, I am a
+          full-stack developer with a passion for web development and software
+          engineering. Fluent in Japanese and English, I am a rapid learner and
+          thrive in collaborative environments, actively seeking opportunities
+          to expand my skill set.
+        </p>
+      </div>
+      <div>
+        <h1 className='text-2xl xl:text-4xl pb-12'>TECHONOLOGY</h1>
+      </div>
+    </div>
   );
 };
 export default About;

@@ -1,11 +1,12 @@
 import styled, { keyframes } from 'styled-components';
 import { Outlet, useNavigation } from 'react-router-dom';
 import {
-  Navbar,
+  Header,
   Footer,
   Loading,
   SocialsBar,
   ThemeToggle,
+  Email,
 } from '../components';
 
 const Background = styled.div`
@@ -47,19 +48,17 @@ const SiteLayout = () => {
     <>
       <Background>
         <Frame>
-          <header>
-            <h1 className='text-4xl xl:text-7xl font-light pb-2'>
-              Rimu Yamaura
-            </h1>
-            <p className='text-sm pb-8'>Graduate software/web dev</p>
-            <Navbar />
-          </header>
-          <div className='max-w-48 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5'>
+          <Header />
+          <div
+            style={{ maxHeight: '70vh' }}
+            className='max-w-80 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-hidden'
+          >
             <Outlet />
           </div>
         </Frame>
         <SocialsBar />
         <ThemeToggle />
+        <Email />
         {/* <Overlay /> */}
       </Background>
     </>
