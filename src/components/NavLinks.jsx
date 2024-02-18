@@ -15,7 +15,7 @@ const NavLinks = () => {
         return (
           <li key={id} className=' py-0.5'>
             <NavLink
-              className='font-bold hover:text-accent transition-colors duration-400'
+              className='text-xs sm:text-base font-bold hover:text-accent transition-colors duration-400'
               to={url}
             >
               {text}

@@ -1,25 +1,21 @@
 const Contact = () => {
   return (
-    <>
-      <div className='flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center py-20'>
-        <h1 className='text-4xl font-bold leading-none tracking-tight sm:text-6xl'>
-          Contact
-        </h1>
-        <div className='stats bg-primary shadow'>
-          <div className='stat'>
-            <div className="='stat-title text-primary-content text-4xl font-bold tracking-widest">
-              Us
-            </div>
-          </div>
-        </div>
+    <div className='text-right'>
+      <div>
+        <h1 className='text-5xl xl:text-9xl pb-12'>CONTACT</h1>
       </div>
-      <p className='mt-6 text-lg leading-8 max-w-2xl mx-auto'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic veniam
-        odit, officiis eos mollitia alias, doloremque, aspernatur ratione
-        asperiores voluptas labore minus dolores reprehenderit corporis quos.
-        Assumenda molestias harum dignissimos?
-      </p>
-    </>
+      <div>
+        <p className='text-xs xl:text-base' style={{ paddingBottom: '7%' }}>
+          rimuyamaura@gmail.com
+        </p>
+        <p className='text-xs xl:text-base' style={{ paddingBottom: '7%' }}>
+          (+86) 022 516 7123
+        </p>
+        <p className='text-xs xl:text-base' style={{ paddingBottom: '7%' }}>
+          <a href=''>View my resume HERE</a>
+        </p>
+      </div>
+    </div>
   );
 };
 export default Contact;

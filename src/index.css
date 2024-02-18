@@ -6,4 +6,12 @@
   .align-element {
     @apply mx-auto max-w-6xl px-8;
   }
+
+  .icon {
+    @apply w-8 h-8 xl:w-10 xl:h-10 hover:text-success transition-colors;
+  }
+
+  .icon-sm {
+    @apply w-3 h-3 xl:w-5 xl:h-5 hover:text-success transition-colors;
+  }
 }

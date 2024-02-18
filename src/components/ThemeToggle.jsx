@@ -38,14 +38,16 @@ const ThemeToggle = () => {
         onChange={handleTheme}
         className='checkbox-xs'
       />
-      <p className='px-1 pr-4'>LIGHT THEME</p>
+      <p className='hidden sm:flex px-1 pr-4'>LIGHT THEME</p>
+      <p className='sm:hidden px-1 pr-4'>LIGHT</p>
       <input
         type='checkbox'
         checked={theme === 'black'}
         onChange={handleTheme}
         className='checkbox-xs'
       />
-      <p className='px-1'>DARK THEME</p>
+      <p className='hidden sm:flex px-1'>DARK THEME</p>
+      <p className='sm:hidden px-1'>DARK</p>
     </ThemeWrapper>
   );
 };

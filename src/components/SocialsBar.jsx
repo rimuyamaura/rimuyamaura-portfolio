@@ -41,25 +41,19 @@ export const socials = [
   {
     id: nanoid(),
     url: 'https://www.linkedin.com/in/rimu-yamaura-2a080b254/',
-    icon: (
-      <FaLinkedin className='text-base-100 w-8 h-8 xl:w-10 xl:h-10 hover:text-success transition-colors duration-400' />
-    ),
+    icon: <FaLinkedin className='icon duration-400' />,
     title: 'LinkedIn',
   },
   {
     id: nanoid(),
     url: 'https://github.com/rimuyamaura',
-    icon: (
-      <FaGithubSquare className='text-base-100 w-8 h-8 xl:w-10 xl:h-10 hover:text-success transition-colors duration-400' />
-    ),
+    icon: <FaGithubSquare className='icon duration-400' />,
     title: 'Github',
   },
   {
     id: nanoid(),
     url: 'https://twitter.com/rimuyamaura',
-    icon: (
-      <FaTwitter className='text-base-100 w-8 h-8 xl:w-10 xl:h-10 hover:text-success transition-colors duration-400' />
-    ),
+    icon: <FaTwitter className='icon duration-400' />,
     title: 'Twitter',
   },
 ];
@@ -81,9 +75,7 @@ const SocialsBar = () => {
           </a>
         );
       })}
-      <SocialText className='hidden lg:flex font-light text-xl text-base-100'>
-        SOCIALS
-      </SocialText>
+      <SocialText className='hidden lg:flex text-xl'>SOCIALS</SocialText>
     </SocialsWrapper>
   );
 };

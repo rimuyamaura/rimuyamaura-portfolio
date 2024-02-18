@@ -51,7 +51,7 @@ const SiteLayout = () => {
           <Header />
           <div
             style={{ maxHeight: '70vh' }}
-            className='max-w-80 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-hidden'
+            className='max-w-64 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-hidden'
           >
             <Outlet />
           </div>
