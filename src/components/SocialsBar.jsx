@@ -8,7 +8,7 @@ const SocialsWrapper = styled.div`
   position: fixed;
   width: 40px;
   height: auto;
-  z-index: 999;
+  z-index: 1;
 
   // Place near bottom left corner
   transform: translateY(-50%);
@@ -41,19 +41,19 @@ export const socials = [
   {
     id: nanoid(),
     url: 'https://www.linkedin.com/in/rimu-yamaura-2a080b254/',
-    icon: <FaLinkedin className='icon duration-400' />,
+    icon: <FaLinkedin className='icon' />,
     title: 'LinkedIn',
   },
   {
     id: nanoid(),
     url: 'https://github.com/rimuyamaura',
-    icon: <FaGithubSquare className='icon duration-400' />,
+    icon: <FaGithubSquare className='icon' />,
     title: 'Github',
   },
   {
     id: nanoid(),
     url: 'https://twitter.com/rimuyamaura',
-    icon: <FaTwitter className='icon duration-400' />,
+    icon: <FaTwitter className='icon' />,
     title: 'Twitter',
   },
 ];
@@ -75,7 +75,9 @@ const SocialsBar = () => {
           </a>
         );
       })}
-      <SocialText className='hidden lg:flex text-xl'>SOCIALS</SocialText>
+      <SocialText className='hidden lg:flex text-xl theme-transition'>
+        SOCIALS
+      </SocialText>
     </SocialsWrapper>
   );
 };

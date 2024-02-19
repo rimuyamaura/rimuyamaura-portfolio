@@ -1,6 +1,6 @@
 const Landing = () => {
   return (
-    <div className='text-right'>
+    <div className='text-right theme-transition'>
       <div>
         <h1 className='text-5xl xl:text-9xl pb-12'>WELCOME TO MY WEBSITE!</h1>
       </div>

@@ -31,7 +31,7 @@ const ThemeToggle = () => {
   };
 
   return (
-    <ThemeWrapper className='text-xs xl:text-sm'>
+    <ThemeWrapper className='text-xs xl:text-sm theme-transition'>
       <input
         type='checkbox'
         checked={theme === 'winter'}

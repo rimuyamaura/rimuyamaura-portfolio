@@ -22,7 +22,10 @@ const ThemeWrapper = styled.div`
 const Email = () => {
   return (
     <ThemeWrapper className='text-xs'>
-      <a href='' className='hidden xl:flex px-1 py-1'>
+      <a
+        href='mailto:rimuyamaura@gmail.com'
+        className='hidden xl:flex px-1 py-1 theme-transition'
+      >
         ────────── RIMUYAMAURA@GMAIL.COM ──
       </a>
     </ThemeWrapper>
