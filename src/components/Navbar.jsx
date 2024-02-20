@@ -2,7 +2,7 @@ import NavLinks from './NavLinks';
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='z-50'>
       <ul>
         <NavLinks />
       </ul>

@@ -12,18 +12,12 @@ import {
 
 const About = () => {
   return (
-    <div className='text-right'>
-      <h1
-        className='text-5xl xl:text-9xl theme-transition'
-        style={{ paddingBottom: '7%' }}
-      >
+    <div className='text-right pb-[7%]'>
+      <h1 className='text-5xl xl:text-9xl theme-transition pb-[7%]'>
         ABOUT ME
       </h1>
 
-      <p
-        className='text-xs xl:text-base theme-transition'
-        style={{ paddingBottom: '7%' }}
-      >
+      <p className='text-xs text-balance xl:text-base theme-transition pb-[7%]'>
         I am a 22 y.o recent computer science graduate who studied at the
         University of Auckland. Based in Auckland, New Zealand, I am a
         full-stack developer with a passion for web development and software

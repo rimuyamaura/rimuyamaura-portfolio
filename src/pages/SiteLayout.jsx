@@ -1,13 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { Outlet, useNavigation } from 'react-router-dom';
-import {
-  Header,
-  Footer,
-  Loading,
-  SocialsBar,
-  ThemeToggle,
-  Email,
-} from '../components';
+import { Header, Loading, SocialsBar, ThemeToggle, Email } from '../components';
 
 const Background = styled.div`
   height: 100vh;
@@ -49,10 +42,7 @@ const SiteLayout = () => {
       <Background>
         <Frame>
           <Header />
-          <div
-            style={{ maxHeight: '70vh' }}
-            className='max-w-64 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-hidden'
-          >
+          <div className='max-h-[70vh] lg:max-h-full max-w-64 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-auto scrollable'>
             <Outlet />
           </div>
         </Frame>

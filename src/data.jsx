@@ -25,4 +25,20 @@ export const projects = [
     title: 'third project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti asdasdasfasdsa asdasdasdas asdasdasd.',
   },
+  {
+    id: nanoid(),
+    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
+    title: 'third project',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti asdasdasfasdsa asdasdasdas asdasdasd.',
+  },
+  {
+    id: nanoid(),
+    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
+    title: 'third project',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti asdasdasfasdsa asdasdasdas asdasdasd.',
+  },
 ];
