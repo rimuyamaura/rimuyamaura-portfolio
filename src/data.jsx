@@ -1,44 +1,40 @@
 import { nanoid } from 'nanoid';
+import terramagotchiImg from './assets/terramagotchi.png';
+import portfolioImg from './assets/portfolio.png';
+import comfyImg from './assets/comfy.png';
+import musicImg from './assets/music.png';
 
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: terramagotchiImg,
+    url: 'https://terramagotchi-trofik-edition.web.app',
+    github: '',
+    title: 'Terramagotchi trofik edition',
+    text: 'Interactive simulation where you can observe and engage with the process of plant growth in soil. Created using Javascript and Google Firebase backend.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: comfyImg,
+    url: '',
+    github: 'https://github.com/rimuyamaura/comfy-store',
+    title: 'Comfy Store',
+    text: 'Webpage with online store functionalities. Constructed via React with Tailwindcss using provided api.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti asdasdasfasdsa asdasdasdas asdasdasd.',
+    img: portfolioImg,
+    url: '',
+    github: '',
+    title: 'Portfolio Website',
+    text: 'My personal portfolio website. Constructed using React and Tailwindcss.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti asdasdasfasdsa asdasdasdas asdasdasd.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti asdasdasfasdsa asdasdasdas asdasdasd.',
+    img: musicImg,
+    url: '',
+    github: 'https://github.com/rimuyamaura/music-library',
+    title: 'Music Library',
+    text: 'Flask app where you can view and organize tracks from a library of music. Backend is created using SQLalchemy mapping a preexisting api of songs into persistent storage for the user.',
   },
 ];
