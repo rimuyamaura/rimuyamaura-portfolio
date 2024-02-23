@@ -26,16 +26,6 @@ const Frame = styled.div`
   }
 `;
 
-// const Overlay = styled.div`
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: rgba(255, 255, 255, 0.1);
-//   z-index: -1;
-// `;
-
 const SiteLayout = () => {
   return (
     <>
@@ -45,11 +35,10 @@ const SiteLayout = () => {
           <div className='max-h-[70vh] lg:max-h-full max-w-64 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-auto scrollable'>
             <Outlet />
           </div>
+          <SocialsBar />
+          <ThemeToggle />
+          <Email />
         </Frame>
-        <SocialsBar />
-        <ThemeToggle />
-        <Email />
-        {/* <Overlay /> */}
       </Background>
     </>
   );

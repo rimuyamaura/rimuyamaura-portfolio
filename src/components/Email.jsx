@@ -4,7 +4,6 @@ const ThemeWrapper = styled.div`
   position: fixed;
   width: auto;
   height: auto;
-  z-index: 1;
   top: calc(100vh - 25px);
   right: 25px;
   margin: 0;

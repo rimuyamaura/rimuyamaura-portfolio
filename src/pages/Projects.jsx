@@ -3,7 +3,7 @@ import { projects } from '../data';
 
 const Projects = () => {
   return (
-    <div className='pb-[7%]'>
+    <div className='py-[7%]'>
       <h1 className='text-5xl xl:text-9xl theme-transition text-right pb-[7%]'>
         PROJECTS
       </h1>

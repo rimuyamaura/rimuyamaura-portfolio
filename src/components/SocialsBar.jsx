@@ -8,7 +8,6 @@ const SocialsWrapper = styled.div`
   position: fixed;
   width: 40px;
   height: auto;
-  z-index: 1;
 
   // Place near bottom left corner
   transform: translateY(-50%);
@@ -75,7 +74,7 @@ const SocialsBar = () => {
           </a>
         );
       })}
-      <SocialText className='hidden lg:flex text-xl theme-transition'>
+      <SocialText className='hidden lg:flex text-secondary-content text-xl theme-transition'>
         SOCIALS
       </SocialText>
     </SocialsWrapper>

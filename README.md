@@ -4,4 +4,4 @@ Features to implement:
 
 - background image
 - page loadup animations
-- popup images on click
+- implement caching via react query
