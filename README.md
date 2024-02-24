@@ -1,6 +1,15 @@
-Rimu Yamaura Portfolio Website
+## Rimu Yamaura Portfolio Website
 
-Features to implement:
+Deployed at: https://rimuyamaura.netlify.app
+
+## Installation and setup:
+
+```sh
+npm install
+npm run dev
+```
+
+## Features to implement:
 
 - background image
 - page loadup animations
