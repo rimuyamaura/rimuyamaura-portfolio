@@ -19,16 +19,16 @@ const ProjectCard = ({ url, img, github, title, text }) => {
           <h1 className='mb-2 text-2xl xl:text-3xl uppercase'>{title}</h1>
           <p className='mb-3 text-xs text-balance'>{text}</p>
           <div className='flex justify-end  gap-x-4'>
-            {url !== '' ? (
-              <a href={url} target='_blank' rel='noreferrer'>
-                <FiExternalLink className='h-5 w-5 text-slate-500 hover:text-black duration-300' />
+            {github !== '' ? (
+              <a href={github} target='_blank' rel='noreferrer'>
+                <FaGithubSquare className='h-5 w-5 text-slate-500 hover:text-warning duration-300' />
               </a>
             ) : (
               ''
             )}
-            {github !== '' ? (
-              <a href={github} target='_blank' rel='noreferrer'>
-                <FaGithubSquare className='h-5 w-5 text-slate-500 hover:text-black duration-300' />
+            {url !== '' ? (
+              <a href={url} target='_blank' rel='noreferrer'>
+                <FiExternalLink className='h-5 w-5 text-slate-500 hover:text-warning duration-300' />
               </a>
             ) : (
               ''

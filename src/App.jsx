@@ -1,7 +1,9 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 import { SiteLayout, Landing, About, Projects, Contact, Error } from './pages';
 import { ErrorElement } from './components';
+import { PreLoader } from './components';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,19 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+  }, []);
+
+  return (
+    <>
+      <PreLoader loading={loading} />
+      {!loading && <RouterProvider router={router} />}
+    </>
+  );
 };
 export default App;

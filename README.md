@@ -12,5 +12,4 @@ npm run dev
 ## Features to implement:
 
 - background image
-- page loadup animations
-- implement caching via react query
+- page switch animations

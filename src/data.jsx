@@ -24,10 +24,10 @@ export const projects = [
   {
     id: nanoid(),
     img: portfolioImg,
-    url: '',
-    github: '',
+    url: 'https://rimuyamaura.netlify.app',
+    github: 'https://github.com/rimuyamaura/rimuyamaura-portfolio',
     title: 'Portfolio Website',
-    text: 'My personal portfolio website. Constructed using React and Tailwindcss.',
+    text: 'My personal portfolio website. Built using React and Tailwindcss.',
   },
   {
     id: nanoid(),
@@ -35,6 +35,6 @@ export const projects = [
     url: '',
     github: 'https://github.com/rimuyamaura/music-library',
     title: 'Music Library',
-    text: 'Flask app where you can view and organize tracks from a library of music. Backend is created using SQLalchemy mapping a preexisting api of songs into persistent storage for the user.',
+    text: "Flask app where you can view and organize tracks from a library of music. Backend is created using SQLalchemy, allowing CRUD operations on the user's collection.",
   },
 ];

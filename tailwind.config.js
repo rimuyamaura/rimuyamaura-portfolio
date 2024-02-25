@@ -6,6 +6,19 @@ export default {
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
-    themes: ['winter', 'black'],
+    themes: [
+      {
+        winter: {
+          ...require('daisyui/src/theming/themes')['winter'],
+          warning: '33FFF8',
+        },
+      },
+      {
+        black: {
+          ...require('daisyui/src/theming/themes')['black'],
+          warning: 'C1FF33',
+        },
+      },
+    ],
   },
 };

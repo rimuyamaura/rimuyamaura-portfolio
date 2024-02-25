@@ -1,6 +1,22 @@
 import styled, { keyframes } from 'styled-components';
 import { Outlet, useNavigation } from 'react-router-dom';
-import { Header, Loading, SocialsBar, ThemeToggle, Email } from '../components';
+import {
+  Header,
+  Loading,
+  SocialsBar,
+  ThemeToggle,
+  Email,
+  PreLoader,
+} from '../components';
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 
 const Background = styled.div`
   height: 100vh;
@@ -19,6 +35,7 @@ const Frame = styled.div`
   border: 1px solid oklch(var(--bc));
   position: fixed;
   padding: 20px;
+  animation: ${fadeIn} 1s ease-in-out forwards;
 
   @media only screen and (min-width: 1280px) {
     height: calc(100vh - 75px);
@@ -29,6 +46,7 @@ const Frame = styled.div`
 const SiteLayout = () => {
   return (
     <>
+      <PreLoader />
       <Background>
         <Frame>
           <Header />

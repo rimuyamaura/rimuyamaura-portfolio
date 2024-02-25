@@ -6,3 +6,4 @@ export { default as ProjectCard } from './ProjectCard';
 export { default as SocialsBar } from './SocialsBar';
 export { default as ThemeToggle } from './ThemeToggle';
 export { default as Email } from './Email';
+export { default as PreLoader } from './PreLoader';

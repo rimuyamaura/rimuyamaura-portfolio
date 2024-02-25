@@ -15,6 +15,16 @@ const Contact = () => {
         <p className='text-xs xl:text-base py-[5%]'>(+86) 022 516 7123</p>
         <p className='text-xs xl:text-base py-[5%]'>
           <a
+            href='https://www.linkedin.com/in/rimu-yamaura-2a080b254/'
+            className='hover:text-warning'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Linkedin Profile HERE
+          </a>
+        </p>
+        <p className='text-xs xl:text-base py-[5%]'>
+          <a
             href={pdf}
             className='hover:text-warning'
             target='_blank'
