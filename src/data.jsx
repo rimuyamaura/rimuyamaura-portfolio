@@ -16,7 +16,7 @@ export const projects = [
   {
     id: nanoid(),
     img: comfyImg,
-    url: '',
+    url: 'https://ry-comfy-store.netlify.app',
     github: 'https://github.com/rimuyamaura/comfy-store',
     title: 'Comfy Store',
     text: 'Webpage with online store functionalities. Constructed via React with Tailwindcss using provided api.',
