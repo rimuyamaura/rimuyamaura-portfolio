@@ -6,7 +6,7 @@ const themes = {
 };
 
 const getThemeFromLocalStorage = () => {
-  const theme = localStorage.getItem('theme') || themes.winter;
+  const theme = localStorage.getItem('theme') || themes.black;
   document.documentElement.setAttribute('data-theme', theme);
   return theme;
 };
@@ -21,7 +21,7 @@ const userSlice = createSlice({
   reducers: {
     toggleTheme: (state, action) => {
       const { winter, black } = themes;
-      state.theme = state.theme === winter ? black : winter;
+      state.theme = state.theme === black ? winter : black;
       document.documentElement.setAttribute('data-theme', state.theme);
       localStorage.setItem('theme', state.theme);
     },

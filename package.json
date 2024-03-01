@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.99.5",
+    "@react-three/fiber": "^8.15.16",
     "@reduxjs/toolkit": "^1.9.5",
     "@tanstack/react-query": "^4.32.6",
     "@tanstack/react-query-devtools": "^4.32.6",
@@ -22,6 +24,7 @@
     "react-router-dom": "^6.14.2",
     "react-toastify": "^9.1.3",
     "styled-components": "^6.1.8",
+    "three": "^0.162.0",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {

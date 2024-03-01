@@ -1,12 +1,12 @@
 import styled, { keyframes } from 'styled-components';
-import { Outlet, useNavigation } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import {
   Header,
-  Loading,
   SocialsBar,
   ThemeToggle,
   Email,
   PreLoader,
+  ParticleRing,
 } from '../components';
 
 const fadeIn = keyframes`
@@ -24,8 +24,6 @@ const Background = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  // background-color: oklch(var(--bc));
 `;
 
 const Frame = styled.div`
@@ -43,12 +41,27 @@ const Frame = styled.div`
   }
 `;
 
+const ParticleRingWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+`;
+
 const SiteLayout = () => {
   return (
     <>
       <PreLoader />
+
       <Background>
         <Frame>
+          <ParticleRingWrapper>
+            <ParticleRing />
+          </ParticleRingWrapper>
           <Header />
           <div className='max-h-[70vh] lg:max-h-full max-w-64 sm:max-w-lg xl:max-w-3xl absolute bottom-0 right-0 p-5 font-light overflow-auto scrollable'>
             <Outlet />
