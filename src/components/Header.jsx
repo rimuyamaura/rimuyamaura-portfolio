@@ -2,11 +2,13 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <header>
+    <header className='inline-block'>
       <h1 className='text-4xl xl:text-7xl font-light pb-2 theme-transition'>
         Rimu Yamaura
       </h1>
-      <p className='text-sm pb-8 theme-transition'>Graduate software/web dev</p>
+      <p className='text-xs sm:text-sm pb-4 sm:pb-8 theme-transition'>
+        Graduate software/web dev
+      </p>
       <Navbar />
     </header>
   );

@@ -13,7 +13,7 @@ const NavLinks = () => {
       {links.map((link) => {
         const { id, url, text } = link;
         return (
-          <li key={id} className=' py-0.5'>
+          <li key={id} className='py-0 sm:py-0.5'>
             <NavLink
               className='text-xs sm:text-base font-bold hover:text-accent transition-colors duration-300'
               to={url}

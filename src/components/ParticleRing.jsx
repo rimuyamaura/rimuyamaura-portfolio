@@ -43,11 +43,13 @@ const randomFromInterval = (min, max) => {
 
 const ParticleRing = () => {
   const theme = useSelector((state) => state.userState.theme);
+  // Change sphere colors depending on the theme
   const LEFT_COLOR = theme === 'winter' ? '33FFF8' : '000000';
   const RIGHT_COLOR = 'ffffff';
 
   return (
-    <div className={theme === 'winter' ? 'opacity-70' : 'opacity-50'}>
+    // Adjust opacity to dim spheres depending on the color theme
+    <div className={theme === 'winter' ? 'opacity-50' : 'opacity-50'}>
       <Canvas
         camera={{
           position: [10, -7.5, -5],

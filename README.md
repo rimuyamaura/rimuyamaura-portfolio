@@ -27,5 +27,6 @@ npm run build
 
 ### Features to implement:
 
-- background image
 - page switch animations
+- adjust loading screen time to match background
+- fix project hover
