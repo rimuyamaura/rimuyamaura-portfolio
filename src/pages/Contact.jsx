@@ -2,7 +2,7 @@ import pdf from '../assets/CV.pdf';
 
 const Contact = () => {
   return (
-    <div className='text-right theme-transition pb-[7%]'>
+    <div className='text-right pb-[7%]'>
       <div>
         <h1 className='text-5xl xl:text-9xl pb-[20%]'>CONTACT</h1>
       </div>

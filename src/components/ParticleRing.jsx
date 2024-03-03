@@ -49,7 +49,7 @@ const ParticleRing = () => {
 
   return (
     // Adjust opacity to dim spheres depending on the color theme
-    <div className={theme === 'winter' ? 'opacity-50' : 'opacity-50'}>
+    <div className={theme === 'winter' ? 'opacity-50 ' : 'opacity-50'}>
       <Canvas
         camera={{
           position: [10, -7.5, -5],

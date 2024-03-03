@@ -8,7 +8,7 @@ const ProjectCard = ({ url, img, github, title, text }) => {
 
   return (
     <>
-      <div className='flex flex-col items-center sm:flex-row sm:h-[162px] border hover:bg-base-300'>
+      <div className='flex flex-col items-center sm:flex-row sm:h-[162px] border hover:bg-base-300 hover:bg-opacity-80'>
         <img
           className='object-cover object-left w-full h-auto sm:h-40 sm:w-24 hover:scale-110 duration-500 cursor-pointer'
           src={img}

@@ -23,7 +23,7 @@ const Email = () => {
     <ThemeWrapper className='text-xs'>
       <a
         href='mailto:rimuyamaura@gmail.com'
-        className='hidden xl:flex px-1 py-1 theme-transition'
+        className='hidden xl:flex px-1 py-1'
       >
         ────────── RIMUYAMAURA@GMAIL.COM ──
       </a>

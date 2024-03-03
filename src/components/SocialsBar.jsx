@@ -20,6 +20,7 @@ const SocialsWrapper = styled.div`
   justify-content: center;
   background-color: oklch(var(--a));
   padding: 5px;
+  transition: background-color 1s ease;
 
   @media only screen and (min-width: 1280px) {
     width: 50px;
@@ -34,6 +35,7 @@ const SocialText = styled.div`
   width: 100px;
   align-items: center;
   justify-content: center;
+  transition: background-color 1s ease;
 `;
 
 export const socials = [
@@ -74,7 +76,7 @@ const SocialsBar = () => {
           </a>
         );
       })}
-      <SocialText className='hidden lg:flex text-secondary-content text-xl theme-transition'>
+      <SocialText className='hidden lg:flex text-secondary-content text-xl'>
         SOCIALS
       </SocialText>
     </SocialsWrapper>

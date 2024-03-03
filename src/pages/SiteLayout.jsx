@@ -1,11 +1,10 @@
-import styled, { keyframes } from 'styled-components';
+import { styled, keyframes } from 'styled-components';
 import { Outlet } from 'react-router-dom';
 import {
   Header,
   SocialsBar,
   ThemeToggle,
   Email,
-  PreLoader,
   ParticleRing,
 } from '../components';
 
@@ -24,6 +23,8 @@ const Background = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: oklch(var(--b1));
+  transition: background-color 1s ease;
 `;
 
 const Frame = styled.div`
@@ -34,6 +35,8 @@ const Frame = styled.div`
   position: fixed;
   padding: 20px;
   animation: ${fadeIn} 1s ease-in-out forwards;
+
+  transition: background-color 1s ease;
 
   @media only screen and (min-width: 1280px) {
     height: calc(100vh - 75px);
@@ -50,13 +53,12 @@ const ParticleRingWrapper = styled.div`
   pointer-events: none;
   z-index: -1;
   overflow: hidden;
+  animation: ${fadeIn} 2s ease-in-out forwards;
 `;
 
 const SiteLayout = () => {
   return (
     <>
-      <PreLoader />
-
       <Background>
         <Frame>
           <ParticleRingWrapper>

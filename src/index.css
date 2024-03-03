@@ -48,10 +48,6 @@
     @apply mx-auto max-w-6xl px-8;
   }
 
-  .theme-transition {
-    @apply transition-colors duration-300;
-  }
-
   .icon {
     @apply w-8 h-8 xl:w-10 xl:h-10 text-secondary-content hover:text-warning transition-colors duration-300;
   }

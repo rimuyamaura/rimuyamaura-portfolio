@@ -13,11 +13,9 @@ import {
 const About = () => {
   return (
     <div className='text-right pb-[7%]'>
-      <h1 className='text-5xl xl:text-9xl theme-transition pb-[7%]'>
-        ABOUT ME
-      </h1>
+      <h1 className='text-5xl xl:text-9xl  pb-[7%]'>ABOUT ME</h1>
 
-      <p className='text-xs text-balance xl:text-base theme-transition pb-[7%]'>
+      <p className='text-xs text-balance xl:text-base  pb-[7%]'>
         I am a 22 y.o recent computer science graduate who studied at the
         University of Auckland. Based in Auckland, New Zealand, I am a
         full-stack developer with a passion for web development and software
@@ -27,9 +25,7 @@ const About = () => {
       </p>
 
       <div>
-        <h1 className='text-2xl xl:text-4xl pb-2 theme-transition'>
-          TECHNOLOGY
-        </h1>
+        <h1 className='text-2xl xl:text-4xl pb-2 '>TECHNOLOGY</h1>
         <div id='container' className='flex justify-end gap-2 xl:gap-5'>
           <a href='https://www.python.org' target='_blank' rel='noreferrer'>
             <SiPython className='icon-sm' />
