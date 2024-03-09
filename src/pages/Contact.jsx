@@ -1,8 +1,22 @@
 import pdf from '../assets/CV.pdf';
+import { styled, keyframes } from 'styled-components';
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+const Wrapper = styled.div`
+  animation: ${fadeIn} 1s ease-in-out forwards;
+`;
 
 const Contact = () => {
   return (
-    <div className='text-right pb-[7%]'>
+    <Wrapper className='text-right pb-[7%]'>
       <div>
         <h1 className='text-5xl xl:text-9xl pb-[20%]'>CONTACT</h1>
       </div>
@@ -12,7 +26,7 @@ const Contact = () => {
             rimuyamaura@gmail.com
           </a>
         </p>
-        <p className='text-xs xl:text-base py-[5%]'>(+86) 022 516 7123</p>
+        <p className='text-xs xl:text-base py-[5%]'>(+64) 22 516 7123</p>
         <p className='text-xs xl:text-base py-[5%]'>
           <a
             href='https://www.linkedin.com/in/rimu-yamaura-2a080b254/'
@@ -34,7 +48,7 @@ const Contact = () => {
           </a>
         </p>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 export default Contact;

@@ -9,10 +9,24 @@ import {
   SiCsharp,
   SiMysql,
 } from 'react-icons/si';
+import { styled, keyframes } from 'styled-components';
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+const Wrapper = styled.div`
+  animation: ${fadeIn} 1s ease-in-out forwards;
+`;
 
 const About = () => {
   return (
-    <div className='text-right pb-[7%]'>
+    <Wrapper className='text-right pb-[7%]'>
       <h1 className='text-5xl xl:text-9xl  pb-[7%]'>ABOUT ME</h1>
 
       <p className='text-xs text-balance xl:text-base  pb-[7%]'>
@@ -73,7 +87,7 @@ const About = () => {
           </a>
         </div>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 

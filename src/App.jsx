@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-import { SiteLayout, Landing, About, Projects, Contact, Error } from './pages';
+import { SiteLayout, Home, About, Projects, Contact, Error } from './pages';
 import { ErrorElement } from './components';
 import { PreLoader } from './components';
 
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Landing />,
+        element: <Home />,
         errorElement: <ErrorElement />,
       },
       {

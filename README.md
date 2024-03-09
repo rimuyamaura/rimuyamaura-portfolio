@@ -27,4 +27,4 @@ npm run build
 
 ### Features to implement:
 
-- page switch animations
+- add scroll indicator to projects page
