@@ -11,6 +11,7 @@ const ThemeWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 
   @media only screen and (min-width: 1280px) {
     top: calc(100vh - 37.5px);

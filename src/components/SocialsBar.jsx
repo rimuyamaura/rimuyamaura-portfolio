@@ -20,6 +20,7 @@ const SocialsWrapper = styled.div`
   justify-content: center;
   background-color: oklch(var(--a));
   padding: 5px;
+  z-index: -1;
   transition: background-color 1s ease;
 
   @media only screen and (min-width: 1280px) {
