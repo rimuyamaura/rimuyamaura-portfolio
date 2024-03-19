@@ -27,4 +27,4 @@ npm run build
 
 ### Features to implement:
 
-- add scroll indicator to projects page
+- add scroll indicator to projects page, showing you can scroll down
