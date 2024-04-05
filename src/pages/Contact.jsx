@@ -1,4 +1,5 @@
-import pdf from '../assets/CV.pdf';
+import cv from '../assets/CV.pdf';
+import transcript from '../assets/unofficialTranscript.pdf';
 import { styled, keyframes } from 'styled-components';
 
 const fadeIn = keyframes`
@@ -39,12 +40,22 @@ const Contact = () => {
         </p>
         <p className='text-xs xl:text-base py-[5%]'>
           <a
-            href={pdf}
+            href={cv}
             className='hover:text-warning'
             target='_blank'
             rel='noreferrer'
           >
             View my resume HERE
+          </a>
+        </p>
+        <p className='text-xs xl:text-base py-[5%]'>
+          <a
+            href={transcript}
+            className='hover:text-warning'
+            target='_blank'
+            rel='noreferrer'
+          >
+            View academic transcript (unofficial) HERE
           </a>
         </p>
       </div>
