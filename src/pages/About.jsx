@@ -30,12 +30,11 @@ const About = () => {
       <h1 className='text-5xl xl:text-9xl  pb-[7%]'>ABOUT ME</h1>
 
       <p className='text-xs text-balance xl:text-base  pb-[7%]'>
-        I am a 22 y.o recent computer science graduate who studied at the
+        I am a 23 y.o recent Computer Science graduate who studied at the
         University of Auckland. Based in Auckland, New Zealand, I am a
-        full-stack developer with a passion for web development and software
-        engineering. Fluent in Japanese and English, I am a rapid learner and
-        thrive in collaborative environments, actively seeking opportunities to
-        expand my skill set.
+        full-stack developer with a passion for Web Development and Software
+        Engineering. Fluent in Japanese and English, I enjoy collaborative
+        environments and am seeking for opportunities to enhance my skill set.
       </p>
 
       <div>

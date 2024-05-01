@@ -24,8 +24,8 @@ const Home = () => {
       <div>
         <p className='text-xs xl:text-base text-balance'>
           Thank you for visiting! Here, you'll find a curated collection of my
-          work, thoughts, and projects, all aimed at sharing a glimpse into who
-          I am and what I'm passionate about.
+          work, thoughts, and projects, offering insight into my interests and
+          what I'm passionate about.
         </p>
       </div>
     </Wrapper>

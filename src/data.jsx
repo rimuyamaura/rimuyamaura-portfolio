@@ -13,7 +13,7 @@ export const projects = [
     url: 'https://terramagotchi-trofik-edition.web.app',
     github: '',
     title: 'Terramagotchi trofik edition',
-    text: 'Interactive JavaScript simulation where you can observe plant growth in soil. Using Google Firebase backend.',
+    text: 'Interactive JavaScript simulation where users can observe the diverse elements within the soil ecosystem. Using a Google Firebase backend.',
   },
   {
     id: nanoid(),
@@ -22,7 +22,7 @@ export const projects = [
     url: 'https://social-app-b8kg.onrender.com',
     github: 'https://github.com/rimuyamaura/social-app',
     title: 'Social-App',
-    text: 'React Social media application with realtime chat function. Backend built using Express.js and MongoDB.',
+    text: 'React Social media application with realtime chat. Backend built using Express.js and MongoDB.',
   },
   {
     id: nanoid(),
@@ -40,7 +40,7 @@ export const projects = [
     url: 'https://rimuyamaura.netlify.app',
     github: 'https://github.com/rimuyamaura/rimuyamaura-portfolio',
     title: 'Portfolio Website',
-    text: 'My personal portfolio website. Built using React and Tailwindcss.',
+    text: 'My personal portfolio website. Built with React.',
   },
   {
     id: nanoid(),
