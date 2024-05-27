@@ -1,6 +1,6 @@
 # Rimu Yamaura Portfolio
 
-My personal website showcasing information about me and my past projects.
+My personal website showcasing details about me and my past projects.
 
 Deployed at: https://rimuyamaura.netlify.app
 
@@ -24,6 +24,4 @@ npm run build
 
 <br>
 
-## Features to implement:
-
-- add scroll indicator to projects page
+<!-- ## Features to implement: -->
