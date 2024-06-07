@@ -28,15 +28,7 @@ const Wrapper = styled.div`
 const About = () => {
   return (
     <Wrapper className='text-right pb-[7%]'>
-      <h1 className='text-5xl xl:text-9xl  pb-[7%]'>ABOUT ME</h1>
-
-      <p className='text-xs text-balance xl:text-base  pb-[2%]'>
-        I am a 23 y.o recent Computer Science graduate who studied at the
-        University of Auckland. Based in Auckland, New Zealand, I am a
-        full-stack developer with a passion for Web Development and Software
-        Engineering. Fluent in Japanese and English, I enjoy collaborative
-        environments and am seeking for opportunities to build on my skill set.
-      </p>
+      <h1 className='text-5xl xl:text-9xl  pb-[20%]'>ABOUT ME</h1>
 
       <div>
         <div className='profile-image flex justify-end text-right'>
@@ -44,7 +36,7 @@ const About = () => {
         </div>
 
         <h1 className='text-2xl xl:text-4xl pt-2 pb-2 '>TECHNOLOGY</h1>
-        <div id='container' className='flex justify-end gap-2 xl:gap-5'>
+        <div id='container' className='flex justify-end gap-2 xl:gap-5 pb-[7%]'>
           <a href='https://www.python.org' target='_blank' rel='noreferrer'>
             <SiPython className='icon-sm' />
           </a>
@@ -91,6 +83,16 @@ const About = () => {
           </a>
         </div>
       </div>
+      <p className='text-xs text-balance xl:text-base'>
+        I am a 23 y.o recent Computer Science graduate who studied at the
+        University of Auckland.
+        <br />
+        <br />
+        Based in Auckland, New Zealand, I am a full-stack developer with a
+        passion for Web Development and Software Engineering. Being fluent in
+        Japanese and English, I enjoy collaborative environments and am seeking
+        for opportunities to build on my skill set.
+      </p>
     </Wrapper>
   );
 };
