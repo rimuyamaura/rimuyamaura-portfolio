@@ -40,7 +40,7 @@ export const projects = [
     url: 'https://rimuyamaura.netlify.app',
     github: 'https://github.com/rimuyamaura/rimuyamaura-portfolio',
     title: 'Portfolio Website',
-    text: 'My personal portfolio website. Built with React.',
+    text: 'My personal portfolio website. Built with React and DaisyUI.',
   },
   {
     id: nanoid(),

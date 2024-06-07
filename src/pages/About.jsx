@@ -10,6 +10,7 @@ import {
   SiMysql,
 } from 'react-icons/si';
 import { styled, keyframes } from 'styled-components';
+import profileImg from '../assets/profilePic.jpg';
 
 const fadeIn = keyframes`
   from {
@@ -29,16 +30,20 @@ const About = () => {
     <Wrapper className='text-right pb-[7%]'>
       <h1 className='text-5xl xl:text-9xl  pb-[7%]'>ABOUT ME</h1>
 
-      <p className='text-xs text-balance xl:text-base  pb-[7%]'>
+      <p className='text-xs text-balance xl:text-base  pb-[2%]'>
         I am a 23 y.o recent Computer Science graduate who studied at the
         University of Auckland. Based in Auckland, New Zealand, I am a
         full-stack developer with a passion for Web Development and Software
         Engineering. Fluent in Japanese and English, I enjoy collaborative
-        environments and am seeking for opportunities to enhance my skill set.
+        environments and am seeking for opportunities to build on my skill set.
       </p>
 
       <div>
-        <h1 className='text-2xl xl:text-4xl pb-2 '>TECHNOLOGY</h1>
+        <div className='profile-image flex justify-end text-right'>
+          <img src={profileImg} alt='Profile' />
+        </div>
+
+        <h1 className='text-2xl xl:text-4xl pt-2 pb-2 '>TECHNOLOGY</h1>
         <div id='container' className='flex justify-end gap-2 xl:gap-5'>
           <a href='https://www.python.org' target='_blank' rel='noreferrer'>
             <SiPython className='icon-sm' />
