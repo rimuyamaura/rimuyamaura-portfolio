@@ -1,5 +1,5 @@
 import { ProjectCard } from '../components';
-import { projects } from '../data';
+import { projects } from '../assets/data';
 import { styled, keyframes } from 'styled-components';
 
 const fadeIn = keyframes`

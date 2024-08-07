@@ -10,7 +10,7 @@ import {
   SiMysql,
 } from 'react-icons/si';
 import { styled, keyframes } from 'styled-components';
-import profileImg from '../assets/profilePic.jpg';
+import profileImg from '../assets/images/profilePic.jpg';
 
 const fadeIn = keyframes`
   from {

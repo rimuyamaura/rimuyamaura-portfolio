@@ -53,7 +53,7 @@ const Contact = () => {
             </a>
           </p>
 
-          <p className='text-xs xl:text-base'>
+          {/* <p className='text-xs xl:text-base'>
             <a
               href={transcript}
               className='hover:text-warning'
@@ -63,7 +63,7 @@ const Contact = () => {
               View academic transcript (unofficial){' '}
               <span class='underline'>HERE</span>
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </Wrapper>

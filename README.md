@@ -9,9 +9,9 @@ Deployed at: https://rimuyamaura.netlify.app
 
 ## Screenshots
 
-![RY Portfolio](/src/assets/portfolio.png)
+![RY Portfolio](/src/assets/images/portfolio.png)
 
-![RY Portfolio](/src/assets/portfolioLight.png)
+![RY Portfolio](/src/assets/images/portfolioLight.png)
 <br><br>
 
 ## Installation and setup:
